@@ -1,1 +1,0 @@
-import{_ as e,H as t,f as a}from"./chunks/framework.Cvt1eIE0.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"quote/quote-manual.md","filePath":"quote/quote-manual.md"}'),o={name:"quote/quote-manual.md"};function n(r,s,u,c,m,l){return t(),a("div")}const d=e(o,[["render",n]]);export{_ as __pageData,d as default};

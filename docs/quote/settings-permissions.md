@@ -369,7 +369,7 @@
 
 ### 7.2 Auto Approval
 
-这部分用于自动审批报价。
+这部分用于自动审批报价，并控制符合条件的报价在什么时间自动处理。
 
 ![auto-approval](/quote/images/smart/auto-approval.png)
 
@@ -387,6 +387,81 @@
 作用：
 
 - 设置允许自动审批的最大折扣比例（目录价格的总折扣不超过此百分比时自动审批）
+
+#### SLA & Processing Schedule
+作用：
+
+- 控制符合自动审批条件的报价，是立即处理，还是按指定时间窗口排队处理
+
+适用场景：
+
+- 白天上班时间内才希望自动审批
+- 想把夜间提交的报价延后到下一个工作日处理
+- 希望自动审批前保留固定的缓冲时间
+
+#### Processing Mode
+支持：
+
+- **Immediate**：符合条件后立即自动审批，不等待
+- 
+  ![processing-mode1](/quote/images/smart/processing-mode1.png)
+
+- **Next Business Day**：进入队列，在下一个有效工作日的指定时间自动处理
+  
+  ![processing-mode2](/quote/images/smart/processing-mode2.png)
+
+- **Custom Window**：只在指定工作时段内处理，也可以额外设置延迟时间
+
+  ![processing-mode3](/quote/images/smart/processing-mode3.png)
+
+#### Delay Buffer (Hours)
+作用：
+
+- 仅在 `Custom Window` 模式下显示
+- 设置自动审批前需要额外等待多少个工作小时
+
+说明：
+
+- 系统只会在有效工作日和工作时间内累计这个等待时长
+
+#### Shop Timezone
+作用：
+
+- 设置自动审批时间规则所使用的时区
+
+说明：
+
+- 工作日、开始时间、结束时间，都会按这里选择的时区计算
+
+#### Active Days
+作用：
+
+- 选择哪些星期几允许自动审批运行
+
+适用场景：
+
+- 只在周一到周五处理报价
+- 周末暂停自动审批
+
+#### Start Time (HH:MM)
+作用：
+
+- 设置自动审批开始处理的时间
+
+说明：
+
+- 在 `Next Business Day` 模式下，系统会在下一个有效工作日的这个时间开始处理
+- 在 `Custom Window` 模式下，这是可自动处理的起始时间
+
+#### End Time (HH:MM)
+作用：
+
+- 仅在 `Custom Window` 模式下显示
+- 设置每天自动审批停止处理的时间
+
+说明：
+
+- 超出这个时间后，新报价会继续排队，等到下一个有效时间窗口再处理
 
 ## 8. SMTP
 
