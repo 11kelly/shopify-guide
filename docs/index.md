@@ -10,15 +10,16 @@ hero:
       text: Quote App 文档
       link: /quote/getting-started
     - theme: alt
-      text: 新 App (示例)
-      link: /app2/guide/getting-started
+      text: Store Locator 文档
+      link: /store-locator/guide/getting-started
 
 features:
   - title: 📄 Quote App
     details: 为客户提供专业的 B2B 报价和询盘功能，支持阶梯定价、最小起订量 (MOQ) 及自动化工作流。
     link: /quote/getting-started
-  - title: 🚀 更多应用 (开发中)
-    details: 我们正在不断开发更多能助力您业务增长的 Shopify 应用程序，敬请期待。
+  - title: 📍 Store Locator
+    details: 专业级 Shopify 门店定位器，让您的客户轻松找到您的实体店。
+    link: /store-locator/guide/getting-started
 ---
 
 ## 选择您要查看的应用文档
@@ -31,7 +32,9 @@ features:
 - [📋 报价单管理](./quote/quote-management.md)
 - [💰 定价与规则](./quote/pricing-rules.md)
 
-### [✨ 新 App (示例)](./app2/guide/getting-started.md)
-这是一个示例应用的文档入口，您可以在这里添加未来新开发应用的说明文档。
-- [🚀 快速入门](./app2/guide/getting-started.md)
-- [📋 功能说明](./app2/guide/features.md)
+### [📍 Store Locator](./store-locator/guide/getting-started.md)
+帮助您的客户轻松在地图上找到您的实体店位置，支持多种布局和悬浮小组件。
+- [🚀 快速开始](./store-locator/guide/getting-started.md)
+- [📋 发布定位器](./store-locator/guide/publish-locator.md)
+- [✨ 外观定制](./store-locator/guide/customization.md)
+- [📊 数据分析](./store-locator/guide/analytics.md)

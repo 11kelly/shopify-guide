@@ -15,13 +15,16 @@ const quoteAppSidebar = [
   },
 ];
 
-// 为第二个 App 预留的侧边栏
-const app2Sidebar = [
+const storeLocatorSidebar = [
   {
-    text: "新 App 使用手册",
+    text: "Store Locator 使用手册",
     items: [
-      { text: "快速入门", link: "/app2/guide/getting-started" },
-      { text: "功能说明", link: "/app2/guide/features" },
+      { text: "快速开始", link: "/store-locator/guide/getting-started" },
+      { text: "发布定位器", link: "/store-locator/guide/publish-locator" },
+      { text: "门店管理", link: "/store-locator/guide/managing-stores" },
+      { text: "外观定制", link: "/store-locator/guide/customization" },
+      { text: "数据分析", link: "/store-locator/guide/analytics" },
+      { text: "高级设置", link: "/store-locator/guide/advanced-settings" },
     ],
   },
 ];
@@ -36,12 +39,12 @@ export default defineConfig({
       { text: "首页", link: "/" },
       // activeMatch 用于当处于该路径下时，高亮对应的 tab
       { text: "Quote App", link: "/quote/getting-started", activeMatch: "^/quote/" },
-      { text: "新 App (示例)", link: "/app2/guide/getting-started", activeMatch: "^/app2/" },
+      { text: "Store Locator", link: "/store-locator/guide/getting-started", activeMatch: "^/store-locator/" },
     ],
     // 侧边栏配置，根据不同的路由路径显示不同的侧边栏
     sidebar: {
       "/quote/": quoteAppSidebar,
-      "/app2/": app2Sidebar,
+      "/store-locator/": storeLocatorSidebar,
     },
     socialLinks: [],
   },
