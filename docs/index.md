@@ -2,39 +2,36 @@
 layout: home
 
 hero:
-  name: "Shopify Apps 使用手册"
-  text: "一站式操作指南与支持文档"
-  tagline: 为您的 Shopify 店铺增长赋能，提供清晰、详细的应用程序使用说明
+  name: "Quote App"
+  text: "使用手册"
+  tagline: 专业的 Shopify B2B 报价单系统，开启您的询盘与智能定价旅程
   actions:
     - theme: brand
-      text: Quote App 文档
+      text: 快速入门
       link: /quote/getting-started
     - theme: alt
-      text: Store Locator 文档
-      link: /store-locator/guide/getting-started
+      text: Markdown 示例
+      link: /markdown-examples
 
 features:
-  - title: 📄 Quote App
-    details: 为客户提供专业的 B2B 报价和询盘功能，支持阶梯定价、最小起订量 (MOQ) 及自动化工作流。
-    link: /quote/getting-started
-  - title: 📍 Store Locator
-    details: 专业级 Shopify 门店定位器，让您的客户轻松找到您的实体店。
-    link: /store-locator/guide/getting-started
+  - title: 📄 报价单与询盘管理
+    details: 在后台集中管理客户的所有报价与询盘，支持前后台双向沟通、定制折扣与物流。
+    link: /quote/quote-management
+  - title: 💰 定价与智能规则
+    details: 支持设置阶梯定价 (Tiered Pricing)、最小起订量 (MOQ) 以及针对特定客户群体的个性化折扣规则。
+    link: /quote/pricing-rules
+  - title: 📧 邮件与自动化通知
+    details: 自动向客户发送报价确认、审核、完成等状态邮件，并支持第三方邮件服务商集成。
+    link: /quote/emails-notifications
 ---
 
-## 选择您要查看的应用文档
+## 快速导航
 
-目前我们提供以下 Shopify 应用程序的使用手册：
-
-### [🛒 Quote App](./quote/getting-started.md)
+### 📖 [Quote App 使用说明](./quote/getting-started.md)
 专门为 B2B 商家设计的报价单系统，帮助您轻松管理客户询盘、实现差异化定价和自动化沟通。
 - [🚀 快速入门](./quote/getting-started.md)
 - [📋 报价单管理](./quote/quote-management.md)
 - [💰 定价与规则](./quote/pricing-rules.md)
-
-### [📍 Store Locator](./store-locator/guide/getting-started.md)
-帮助您的客户轻松在地图上找到您的实体店位置，支持多种布局和悬浮小组件。
-- [🚀 快速开始](./store-locator/guide/getting-started.md)
-- [📋 发布定位器](./store-locator/guide/publish-locator.md)
-- [✨ 外观定制](./store-locator/guide/customization.md)
-- [📊 数据分析](./store-locator/guide/analytics.md)
+- [📧 邮件与通知](./quote/emails-notifications.md)
+- [📊 批量操作与数据](./quote/bulk-data.md)
+- [⚙️ 系统设置](./quote/settings-permissions.md)
