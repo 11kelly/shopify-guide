@@ -16,6 +16,7 @@ const quoteAppSidebar = [
 ];
 
 export default defineConfig({
+  base: "/shopify/",
   lang: "zh-CN",
   title: "Quote App 文档",
   description: "Quote App 使用说明手册 - 专业的 Shopify B2B 报价单系统",
