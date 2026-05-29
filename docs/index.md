@@ -2,39 +2,36 @@
 layout: home
 
 hero:
-  name: "Shopify Apps 使用手册"
-  text: "一站式操作指南与支持文档"
-  tagline: 为您的 Shopify 店铺增长赋能，提供清晰、详细的应用程序使用说明
+  name: "Store Locator"
+  text: "使用手册"
+  tagline: 专业级 Shopify 门店定位器，让您的客户轻松找到您的实体店
   actions:
     - theme: brand
-      text: Quote App 文档
-      link: /quote/getting-started
-    - theme: alt
-      text: Store Locator 文档
+      text: 快速开始
       link: /store-locator/guide/getting-started
+    - theme: alt
+      text: Markdown 示例
+      link: /markdown-examples
 
 features:
-  - title: 📄 Quote App
-    details: 为客户提供专业的 B2B 报价和询盘功能，支持阶梯定价、最小起订量 (MOQ) 及自动化工作流。
-    link: /quote/getting-started
-  - title: 📍 Store Locator
-    details: 专业级 Shopify 门店定位器，让您的客户轻松找到您的实体店。
-    link: /store-locator/guide/getting-started
+  - title: 📍 实体店定位与发布
+    details: 轻松在地图上添加、导入和发布您的门店。支持在 Shopify 前台集成高性能的交互式地图组件。
+    link: /store-locator/guide/publish-locator
+  - title: 🏬 门店管理与标签
+    details: 支持批量添加、搜索过滤、自定义门店字段和标签，方便客户精确筛选附近的实体店。
+    link: /store-locator/guide/managing-stores
+  - title: ✨ 外观定制与高级设置
+    details: 丰富的布局样式、地图行为配置和主题颜色，完美匹配您店铺的品牌视觉风格。
+    link: /store-locator/guide/customization
 ---
 
-## 选择您要查看的应用文档
+## 快速导航
 
-目前我们提供以下 Shopify 应用程序的使用手册：
-
-### [🛒 Quote App](./quote/getting-started.md)
-专门为 B2B 商家设计的报价单系统，帮助您轻松管理客户询盘、实现差异化定价和自动化沟通。
-- [🚀 快速入门](./quote/getting-started.md)
-- [📋 报价单管理](./quote/quote-management.md)
-- [💰 定价与规则](./quote/pricing-rules.md)
-
-### [📍 Store Locator](./store-locator/guide/getting-started.md)
-帮助您的客户轻松在地图上找到您的实体店位置，支持多种布局和悬浮小组件。
+### 📖 [Store Locator 使用说明](./store-locator/guide/getting-started.md)
+专业级 Shopify 门店定位器，帮助您的客户轻松在地图上找到您的实体店位置，支持多种布局和悬浮小组件。
 - [🚀 快速开始](./store-locator/guide/getting-started.md)
 - [📋 发布定位器](./store-locator/guide/publish-locator.md)
+- [🏬 门店管理](./store-locator/guide/managing-stores)
 - [✨ 外观定制](./store-locator/guide/customization.md)
 - [📊 数据分析](./store-locator/guide/analytics.md)
+- [⚙️ 高级设置](./store-locator/guide/advanced-settings.md)
